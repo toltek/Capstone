@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 24, 2017, 10:59:22 AM
+    Author     : Student
+*/
+body{
+  background-image: url("images/mad.gif/");
+  background-size: 100px;
+}
+
+#title{
+    font-size: 100px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+ #topbuttons {
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}
+ 
+ #topbuttons:hover {
+  opacity: 0.75;
+}
+
+#buttons{
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+#topbuttons{
+    font-size: 25px;
+    margin-right: 120px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#gallery1{
+    text-align: center;
+    width: 100%;
+}
+
+.images{
+    margin-right: 20px;
+    margin-top: 35px;
+}

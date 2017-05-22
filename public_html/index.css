@@ -1,0 +1,97 @@
+@font-face {
+    font-family: SEGA;
+    src: url(fonts/SEGA.TTF);
+}
+
+@font-face {
+    font-family: bomb;
+    src: url(fonts/bomb.ttf);
+}
+
+@font-face {
+    font-family: social;
+    src: url(fonts/social_shapes.ttf);
+}
+
+body{
+  background-image: url("images/mad.gif/");
+  background-size: 100px;
+}
+div {
+    padding-top: 195px;
+}
+
+#title{
+    font-size: 116px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#sub{
+    font-size: 25px;
+    padding-top: 1px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#line{
+    width: 70%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+}
+
+#buttons{
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    width: 80%;
+    padding-top: 20px;
+    
+}
+
+#topbuttons{
+    font-size: 25px;
+    margin-right: 120px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+#topbuttons:hover {
+  opacity: 0.75;
+}
+
+.social{
+    margin-bottom: auto;
+ 
+    text-align: center;
+    padding-top: 150px;
+}
+
+#socialbuttons{
+    
+    border: none;
+    color: white;
+    font-family: social;
+    font-size: 55px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+ 
+ #socialbuttons:hover {
+  opacity: 0.75;
+}
+
+audio {
+   background-color: black;
+}
+

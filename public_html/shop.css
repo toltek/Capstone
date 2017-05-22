@@ -1,0 +1,49 @@
+
+body{
+     background-image: url("mad.gif");
+}
+
+#title{
+    font-size: 100px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+ #topbuttons {
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}
+ 
+ #topbuttons:hover {
+  opacity: 0.75;
+}
+
+#buttons{
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    width: 80%;
+    padding-top: 20px;
+}
+
+#topbuttons{
+    font-size: 25px;
+    margin-right: 120px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#shop1{
+    text-align: center;
+    width: 100%;
+}
+
+.images{
+    margin-right: 90px;
+    margin-top: 50px;
+}
